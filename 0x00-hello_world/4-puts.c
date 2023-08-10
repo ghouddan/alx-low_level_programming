@@ -1,4 +1,5 @@
 #include<stdio.h>
+/*the main function return the string needed*/
 int main(void)
 {
 char *message;
