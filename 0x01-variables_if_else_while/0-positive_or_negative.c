@@ -1,23 +1,32 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include <time.h>
-/* more headers goes there */
+/**
+ * main - Entry point of the program.
+ *
+ * This function demonstrates the usage of the puts function.
+ * It displays a message to the standard output.
+ *
+ * Return: Always returns 0 to indicate successful execution.
+ */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-switch(n > 0)
+switch (n > 0)
 {
 case 1:
-printf("%d is positive\n",n);
+printf("%d is positive\n", n);
 break;
 case 0:
-if (n == 0) {
+if (n == 0)
+{	
 printf("%d is zero\n",n);
-} else {
+}
+else
+{
 printf("%d is negative\n",n);
 }
 break;
