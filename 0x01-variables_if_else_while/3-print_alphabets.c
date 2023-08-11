@@ -9,11 +9,13 @@
  */
 int main(void)
 {
-for(char c='a';c<='z';c++)
+char c;
+char C;
+for(c='a';c<='z';c++)
 {
 putchar(c);
 }
-for(char C='A';C<='Z';C++)
+for(C='A';C<='Z';C++)
 {
 putchar(C);
 }
