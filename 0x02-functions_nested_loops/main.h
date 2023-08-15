@@ -1,0 +1,2 @@
+// my header
+int putchar();
