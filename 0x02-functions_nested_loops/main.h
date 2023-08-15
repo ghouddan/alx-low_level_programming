@@ -1,2 +1,2 @@
-// my header
-int putchar();
+void _putchar();
+
