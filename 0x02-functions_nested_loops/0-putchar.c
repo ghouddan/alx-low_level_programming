@@ -8,7 +8,7 @@
  *
  * Return: Always returns 0 to indicate successful execution.
  */
-void _putchar()
+void _putc()
 {
 int i;
 char put[] = "_putchar\n";
@@ -19,7 +19,7 @@ putchar(put[i]);
 }
 int main(void)
 {
-_putchar();
+_putc();
 return (0);
 }
 
