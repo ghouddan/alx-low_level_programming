@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * time_table - Writes the alphabet in lowercase to stdout
+ * times_table - Writes the alphabet in lowercase to stdout
  *  The character to print
  * Return: On success, 1.
  * On error, -1 is returned, and errno is set appropriately.
