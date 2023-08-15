@@ -13,7 +13,7 @@ int i;
 char put[] = "_putchar\n";
 for (i = 0; i < 9; i++)
 {
-putchar(put[i]);
+_putchar(put[i]);
 }
 }
 /**
