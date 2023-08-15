@@ -1,8 +1,6 @@
 #include "main.h"
 /**
  * print_alphabet - Brief description of the function.
- * @c: Description of parameter 1.
- 
  *
  * Detailed description of what the function does.
  * Return: Description of the return value.
