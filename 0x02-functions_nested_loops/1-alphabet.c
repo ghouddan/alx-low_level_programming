@@ -1,4 +1,6 @@
-#include"main.h"/**
+#include"main.h"
+#include<unistd.h>
+/**
  * function_name - Brief description of the function.
  * @parameter1: Description of parameter 1.
  * @parameter2: Description of parameter 2.
@@ -6,7 +8,10 @@
  * Detailed description of what the function does.
  * Return: Description of the return value.
  */
-
+int _putchar(char c)
+{
+return (write(1, &c, 1));
+}
 void print_alphabet(void)
 {
 char c;
