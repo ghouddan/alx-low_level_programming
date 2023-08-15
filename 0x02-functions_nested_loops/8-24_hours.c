@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include"main.h"
 /**
  * _islower - Brief description of the function.
  * @c : caracter to print
