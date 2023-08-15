@@ -5,23 +5,34 @@
  * Return: On success, 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-void times_table(void)
-{
+void times_table() {
 int i;
 int j;
-for (i = 0; i <= 9; i++)
-{
-for (j = 0; j <= 9; j++)
-{
-int result = i * j;
-_putchar(result / 10 + '0');  
-_putchar(result % 10 + '0');  
-if (j < 9)
-{
-_putchar(',');  
-_putchar(' ');  
+int result;
+for (i = 0; i <= 9; i++) {
+for (j = 0; j <= 9; j++) {
+result = i * j;
+if (result >= 100) {
+putchar(result / 100 + '0');
+result %= 100;
 }
+else
+{
+putchar(' ');
 }
-_putchar('\n'); 
+if (result >= 10) {
+putchar(result / 10 + '0');
+}
+else
+{
+putchar(' ');
+}
+putchar(result % 10 + '0');
+if (j < 9) {
+putchar(',');
+}
+putchar(' ');
+}
+putchar('\n');
 }
 }
