@@ -9,12 +9,14 @@
  * Return: Always returns 0 to indicate successful execution.
  */
 /**
- * @printing the resutl
- * @variable
- * @variable
+ * function_name - Brief description of the function.
+ * @parameter1: Description of parameter 1.
+ * @parameter2: Description of parameter 2.
  *
- * void
+ * Detailed description of what the function does.
+ * Return: Description of the return value.
  */
+
 void _putc(void)
 {
 int i;
