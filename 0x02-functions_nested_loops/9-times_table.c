@@ -19,7 +19,7 @@ result %= 100;
 if (result >= 10) {
 _putchar(result / 10 + '0');
 }
-else if(result != 0)
+else if(j != 0)
 {
 _putchar(' ');
 }
