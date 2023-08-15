@@ -9,7 +9,7 @@
  * Return: Always returns 0 to indicate successful execution.
  */
 /**
- * printing the string _putchar
+ * printing the resutl
  * @variable
  * @variable
  *
