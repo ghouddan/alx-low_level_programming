@@ -8,10 +8,6 @@
  * Detailed description of what the function does.
  * Return: Description of the return value.
  */
-int _putchar(char c)
-{
-return (write(1, &c, 1));
-}
 void print_alphabet(void)
 {
 char c;
