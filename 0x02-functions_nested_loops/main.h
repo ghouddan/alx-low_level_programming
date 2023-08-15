@@ -10,4 +10,3 @@ int print_last_digit(int);
 void jack_bauer(void);
 void times_table(void);
 int add(int, int);
-int add(int, intÃ);
