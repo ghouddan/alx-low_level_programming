@@ -9,7 +9,7 @@
  * Return: Always returns 0 to indicate successful execution.
  */
 /**
- * printing the resutl
+ * @printing the resutl
  * @variable
  * @variable
  *
