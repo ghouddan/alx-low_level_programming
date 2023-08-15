@@ -11,7 +11,7 @@ void print_to_98(int n)
 int i;
 int j;
 if (n == 98)
-	ptintf("%d",n);
+	printf("%d",n);
 if (n < 98)
 {
 for (i = n; i <= 98; i++)
@@ -20,10 +20,14 @@ for (i = n; i <= 98; i++)
 	putchar(',');
 	putchar(' ');
 }
+}
 else
 {
 for(j = n; j < 99; j--)
 {
 	printf("%d",j);
 	putchar(',');
-	putchar(' ');
+        putchar(' ');
+}
+}
+}
