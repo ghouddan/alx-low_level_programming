@@ -1,8 +1,6 @@
 #include"main.h"
 /**
  * jack_bauer - Brief description of the function.
- * @i : hour 
- * @j : minut
  * Detailed description of what the function does.
  * Return: Description of the return value.
  */
