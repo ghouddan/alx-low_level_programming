@@ -5,7 +5,7 @@
  * Return: On success, 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-void time_table(void)
+void times_table(void)
 {
 int i;
 int j;
