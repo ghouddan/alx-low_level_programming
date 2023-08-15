@@ -16,10 +16,6 @@ if (result >= 100) {
 _putchar(result / 100 + '0');
 result %= 100;
 }
-else
-{
-_putchar(' ');
-}
 if (result >= 10) {
 _putchar(result / 10 + '0');
 }
