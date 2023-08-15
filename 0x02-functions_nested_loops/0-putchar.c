@@ -1,12 +1,10 @@
-#include<stdio.h>
 #include"main.h"
 /**
- * function_name - Brief description of the function.
- * @parameter1: Description of parameter 1.
- * @parameter2: Description of parameter 2.
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
  *
- * Detailed description of what the function does.
- * Return: Description of the return value.
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
 
 void _putc(void)
