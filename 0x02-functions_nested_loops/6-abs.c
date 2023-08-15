@@ -5,10 +5,8 @@
  * Return: On success, 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-int _abs(int c)
-{
-if (c < 0)
-{
+int _abs (int c){
+if (c < 0){
 return (-c);
 }
 if (c > 0)
@@ -19,5 +17,4 @@ if (c == 0)
 {
 return (0);
 }
-return (NULL);
 }
