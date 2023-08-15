@@ -12,11 +12,11 @@ int result;
 for (i = 0; i <= 9; i++) {
 for (j = 0; j <= 9; j++) {
 result = i * j;
-if (result >= 100) {
+if (result > 100) {
 _putchar(result / 100 + '0');
 result %= 100;
 }
-if (result >= 10) {
+if (result > 10) {
 _putchar(result / 10 + '0');
 }
 else
@@ -24,7 +24,7 @@ else
 _putchar(' ');
 }
 _putchar(result % 10 + '0');
-if (j <= 9) {
+if (j < 9) {
 _putchar(',');
 }
 _putchar(' ');
