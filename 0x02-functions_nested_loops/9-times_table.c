@@ -18,10 +18,10 @@ _putchar(result / 10 + '0');
 _putchar(result % 10 + '0');  
 if (j < 9)
 {
-_putchar(',');  // Print comma
-_putchar(' ');  // Print space
+_putchar(',');  
+_putchar(' ');  
 }
 }
-putchar('\n');  // Print newline
+putchar('\n'); 
 }
 }
