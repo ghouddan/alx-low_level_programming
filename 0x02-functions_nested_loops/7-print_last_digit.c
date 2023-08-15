@@ -11,8 +11,8 @@ int last;
 last = c % 10;
 if (last < 0)
 	last = -last;
-last = last * 10 + last;
-return (last);
+result = last * 10 + last;
+return (result);
 
 }
 
