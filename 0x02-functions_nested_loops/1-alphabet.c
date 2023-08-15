@@ -1,5 +1,4 @@
-#include"main.h"
-#include<unistd.h>
+#include "main.h"
 /**
  * function_name - Brief description of the function.
  * @parameter1: Description of parameter 1.
