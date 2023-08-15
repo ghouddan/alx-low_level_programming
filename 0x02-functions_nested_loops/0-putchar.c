@@ -8,7 +8,14 @@
  *
  * Return: Always returns 0 to indicate successful execution.
  */
-void _putc()
+/**
+ * printing the string "_putchar"
+ * @variable
+ * @variable
+ *
+ * void
+ */
+void _putc(void)
 {
 int i;
 char put[] = "_putchar\n";
