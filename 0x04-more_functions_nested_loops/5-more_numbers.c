@@ -18,7 +18,6 @@ _putchar('1');
 }
 _putchar(j % 10 + '0');
 }
-i++;
 putchar('\n');
 }
 }
