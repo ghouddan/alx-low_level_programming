@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 /**
  * main - Entry point of the program.
  *
@@ -31,3 +32,4 @@ if (n > 2)
 max = n;
 printf("%ld\n", max);
 return (0);
+}
