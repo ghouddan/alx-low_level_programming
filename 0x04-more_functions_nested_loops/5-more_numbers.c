@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * more_numbers - Brief description of the function.
- * Return: Description of the return value.
  */
 void more_numbers(void)
 {
@@ -15,7 +14,7 @@ if (i >= 10)
 {
 _putchar('1');
 }
-_putchar(i % 10+'0');
+_putchar(i % 10 + '0');
 }
 _putchar('\n');
 }
