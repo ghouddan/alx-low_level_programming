@@ -1,8 +1,11 @@
-#include "main.h"
 #include<stdio.h>
 /**
- * print_line - Brief description of the function.
- * @n : number of time
+ * main - Entry point of the program.
+ *
+ * This function demonstrates the usage of the puts function.
+ * It displays a message to the standard output.
+ *
+ * Return: Always returns 0 to indicate successful execution.
  */
 int main(void)
 {
@@ -11,19 +14,62 @@ for (i = 1; i <= 100; i++)
 {
 if ( i % 5 == 0 && i % 3 == 0)
 {
-printf("FizzBuzz");
+printf(" FizzBuzz");
 }
 else if (i % 5 == 0)
 {
-printf("Buzz");
+printf(" Buzz");
 }
 else if (i % 3 == 0)
 {
-printf("Fizz");
+printf(" Fizz");
+}
+else if (i == 1)
+{
+printf(" %d",i);
 }
 else
 {
-printf("%d",i);
+printf(" %d",i);
 }
 }
+printf("\n");
+return (0);
+}#include<stdio.h>
+/**
+ * main - Entry point of the program.
+ *
+ * This function demonstrates the usage of the puts function.
+ * It displays a message to the standard output.
+ *
+ * Return: Always returns 0 to indicate successful execution.
+ */
+int main(void)
+{
+int i;
+for (i = 1; i <= 100; i++)
+{
+if (i % 5 == 0 && i % 3 == 0)
+{
+printf(" FizzBuzz");
+}
+else if (i % 5 == 0)
+{
+printf(" Buzz");
+}
+else if (i % 3 == 0)
+{
+printf(" Fizz");
+}
+else if (i == 1)
+{
+printf(" %d",i);
+}
+else
+{
+printf(" %d",i);
+}
+}
+printf("\n");
+return (0);
 }
