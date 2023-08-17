@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * print_diagonal - Brief description of the function.
  * @n : number of time
@@ -10,7 +10,7 @@ if (n > 0)
 {
 for (i = 1; i <= n; i++)
 {
-_putchar('\');
+_putchar(92);
 }
 _putchar('\n');
 }
