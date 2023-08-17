@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * print_numbers - writes the character c to stdout
- * @i: number to print
+ * print_numbers - writes the character c to std
  * Return: On success 1.
  */
 void print_numbers(void)
