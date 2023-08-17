@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_square - Brief description of the function.
- * @n : size of the square
+ * print_triangle - Brief description of the function.
+ * @size : size of the of the triangle
  */
  void print_triangle(int size)
 {
