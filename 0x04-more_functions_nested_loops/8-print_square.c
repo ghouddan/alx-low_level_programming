@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_line - Brief description of the function.
+ * print_square - Brief description of the function.
  * @n : size of the square
  */
 void print_square(int n)
@@ -19,5 +19,7 @@ _putchar('\n');
 }
 }
 else
+{
 _putchar('\n');
+}
 }
