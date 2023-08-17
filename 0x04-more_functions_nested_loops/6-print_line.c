@@ -1,4 +1,5 @@
-#include "main.h"/**
+#include "main.h"
+/**
  * print_line - Brief description of the function.
  * @n : number of time
  */
@@ -9,7 +10,7 @@ if (n > 0)
 {
 for (i = 1; i <= n; i++)
 {
-_putchar(95);
+_putchar('_');
 }
 _putchar('\n');
 }
