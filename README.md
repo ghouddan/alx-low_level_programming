@@ -1,1 +1,1 @@
-welcome to low level programing
+this folder is related to the c function 
