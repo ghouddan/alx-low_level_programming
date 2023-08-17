@@ -3,12 +3,12 @@
  * @n : number of time
  * Return: Description of the return value.
  */
- void print_line(int n)
+void print_line(int n)
 {
 int i;
 if (n > 0)
 {
-for(i = 1; i <= n; i++)
+for (i = 1; i <= n; i++)
 {
 _putchar(95);
 }
