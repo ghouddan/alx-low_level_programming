@@ -18,7 +18,7 @@ _putchar('1');
 }
 _putchar(i % 10+'0');
 }
-putchar('\n');
+_putchar('\n');
 }
 }
 
