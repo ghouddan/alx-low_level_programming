@@ -1,4 +1,5 @@
-#include "main.h"/**
+#include "main.h"
+/**
  * mul - writes the character c to stdout
  * @a : number1
  * @b : number2
