@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _print_array - Brief description of the function.
+ * print_array - Brief description of the function.
  * @n : array size
  * @a : caracter to print
  * Detailed description of what the function does.
@@ -14,11 +14,11 @@ for (i = 0; i < n; i++)
 {
 if (i == n - 1)
 {
-printf("%d",a[i]);
+printf("%d ", a[i]);
 }
 else
 {
-printf("%d, ",a[i]);
+printf("%d, ", a[i]);
 }
 }
 }
