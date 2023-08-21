@@ -16,7 +16,8 @@ while (src[size])
 {
 size++;
 }
-while(j<size){
+while (j <= size)
+{
 dest[j] = src[j];
 j++;
 }
