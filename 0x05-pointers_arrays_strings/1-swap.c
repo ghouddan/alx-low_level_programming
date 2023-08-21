@@ -5,7 +5,7 @@
  * Detailed description of what the function does.
  * Return: Description of the return value.
  */
- void swap_int(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 int tmp;
 tmp = *a;
