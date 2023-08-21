@@ -1,4 +1,5 @@
-#include "main.h"/**
+#include "main.h"
+/**
  * swap_int - Brief description of the function.
  * @b : variable 2
  * @a : variable 1
