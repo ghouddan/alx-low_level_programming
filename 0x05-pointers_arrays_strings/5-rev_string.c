@@ -16,7 +16,7 @@ while (s[i])
 {
 i++;
 }
-for(j = 0; j < i; j++, i--)
+for (j = 0; j < i; j++, i--)
 {
 tmp = s[i - 1];
 s[i - 1] = s[j];
