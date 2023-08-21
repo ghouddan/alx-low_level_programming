@@ -1,0 +1,31 @@
+#include "main.h"
+/**
+ * put_half - Brief description of the function.
+ * @str : caracter to print
+ * Detailed description of what the function does.
+ * Return: Description of the return value.
+ */
+void puts_half(char *str)
+{
+int size;
+size = 0;
+int i;
+while (str[size])
+{
+size++;
+}
+if (size % 2 == 0)
+{
+for(i = size / 2; i < size; i++ )
+{
+putchar(str[i]);
+}
+}
+else
+{
+for(i = (size - 1) / 2; i < size ; i++ )
+{
+putchar(str[i]);
+}
+}
+}
