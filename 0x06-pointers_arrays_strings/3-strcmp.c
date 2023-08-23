@@ -3,7 +3,6 @@
  * _strcmp - Brief description of the function.
  * @s1 : string 1
  * @s2 : string 2
- * @n : number of byte form src
  * Detailed description of what the function does.
  * Return: Description of the return value.
  */
