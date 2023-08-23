@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcat - Brief description of the function.
+ * _strncat - Brief description of the function.
  * @src : string to concatanat
  * @dest : caracter to print
  * @n : number of byte form src
