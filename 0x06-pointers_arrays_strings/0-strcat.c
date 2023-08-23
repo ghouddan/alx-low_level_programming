@@ -6,7 +6,7 @@
  * Detailed description of what the function does.
  * Return: Description of the return value.
  */
-char *_strcat(char *dest, const char *src)
+char *_strcat(char *dest, char *src)
 {
 int size1,size2,i;
 size2 = 0;
@@ -19,7 +19,7 @@ while (src[size2])
 {
 size2++;
 }
-for (int i = 0; i <= size2; i++)
+for (i = 0; i <= size2; i++)
 {
 dest[size1 + i] = src[i];
 }
