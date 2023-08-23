@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * reverse_array -  Brief description of the function.
- * @s : caracter to print
+ * @a : array to print
+ * @n : size of array
  * Detailed description of what the function does.
  * Return: Description of the return value.
  */
