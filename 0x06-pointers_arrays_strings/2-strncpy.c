@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * _strncpy -  Brief description of the function.
+ * _strncpy - Brief description of the function.
  * @dest : array to print
+ * @n : numbers of bytes
  * @src : source array
  * Detailed description of what the function does.
  * Return: Description of the return value.
