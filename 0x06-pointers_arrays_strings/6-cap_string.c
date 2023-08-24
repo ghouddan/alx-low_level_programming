@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * cap_string& -  Brief description of the function.
+ * cap_string -  Brief description of the function.
  * @string : string to print
  * Detailed description of what the function does.
  * Return: Description of the return value.
@@ -13,19 +13,19 @@ while (string[index])
 while (!(string[index] >= 'a' && string[index] <= 'z'))
 index++;
 if (string[index - 1] == ' ' ||
-    string[index - 1] == '\t' ||
-    string[index - 1] == '\n' ||
-    string[index - 1] == ',' ||
-    string[index - 1] == ';' ||
-    string[index - 1] == '.' ||
-    string[index - 1] == '!' ||
-    string[index - 1] == '?' ||
-    string[index - 1] == '"' ||
-    string[index - 1] == '(' ||
-    string[index - 1] == ')' ||
-    string[index - 1] == '{' ||
-    string[index - 1] == '}' ||
-    index == 0)
+string[index - 1] == '\t' ||
+string[index - 1] == '\n' ||
+string[index - 1] == ',' ||
+string[index - 1] == ';' ||
+string[index - 1] == '.' ||
+string[index - 1] == '!' ||
+string[index - 1] == '?' ||
+string[index - 1] == '"' ||
+string[index - 1] == '(' ||
+string[index - 1] == ')' ||
+string[index - 1] == '{' ||
+string[index - 1] == '}' ||
+index == 0)
 string[index] -= 32;
 index++;
 }
