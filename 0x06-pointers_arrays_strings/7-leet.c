@@ -18,7 +18,6 @@ for(j = 0; j < 10; j++)
 if(str[i] == str1[j])
 {
 str[i] = str2[j];
-break;
 }
 }
 }
