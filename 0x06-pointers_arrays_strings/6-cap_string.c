@@ -5,7 +5,7 @@
  * Detailed description of what the function does.
  * Return: Description of the return value.
  */
- char *cap_string(char *string)
+char *cap_string(char *string)
 {
 int index = 0;
 while (string[index])
