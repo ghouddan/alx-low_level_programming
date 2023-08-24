@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcpy -  Brief description of the function.
+ * _strncpy -  Brief description of the function.
  * @dest : array to print
  * @src : source array
  * Detailed description of what the function does.
