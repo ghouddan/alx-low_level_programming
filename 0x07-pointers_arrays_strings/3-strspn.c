@@ -27,5 +27,5 @@ if (accept[j] == '\0')
 break;
 }
 }
-return (coun)t;
+return (count);
 }
