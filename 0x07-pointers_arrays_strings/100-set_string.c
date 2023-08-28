@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _set_string - Brief description of the function.
+ * set_string - Brief description of the function.
  * @s: string
  * @to : character affect
  * Detailed description of what the function does.
@@ -8,5 +8,5 @@
  */
 void set_string(char **s, char *to)
 {
-    *s=to;
+    *s = to;
 }
