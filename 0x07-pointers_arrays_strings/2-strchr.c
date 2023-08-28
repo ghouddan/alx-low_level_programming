@@ -3,7 +3,6 @@
  * _strchr - Brief description of the function.
  * @s: string 
  * @c : character to find
- * @src : source array
  * Detailed description of what the function does.
  * Return: Description of the return value.
  */
@@ -15,9 +14,9 @@ char *_strchr(char *s, char c)
      {
          if(s[i] == c)
          {
-             return &s[i];
+             return (&s[i]);
          }
          i++;
      }
-     return (0);
+     return (NULL);
 }
