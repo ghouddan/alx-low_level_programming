@@ -4,7 +4,6 @@
  * @s : mamory location
  * @b : caracter
  * @n : number of byte
- * Detailed description of what the function does.
  * Return: Description of the return value.
  */
 char *_memset(char *s, char b, unsigned int n)
