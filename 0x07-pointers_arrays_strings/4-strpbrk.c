@@ -8,23 +8,15 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-int i;
 int j;
-char *tmp;
-for (i = 0; s[i] != '\0'; i++)
+while (*s)
 {
-for (j = 0; accept[j] != '\0'; j++)
+for (j = 0; accept[j]; j++)
 {
-if (s[i] == accept[j])
-{
-tmp = &s[i];
-break;
+if (*s == accept[j])
+return (s);
 }
+s++;
 }
-if(accept[j] != '\0')
-{
-break;
-}
-}
-return tmp;
+return ('\0');
 }
