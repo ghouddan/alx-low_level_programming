@@ -2,6 +2,8 @@
 /**
  * is_palindrome - Brief description of the function.
  * @s : string to check
+ * @i : checker
+ * @len : lrngth og the string
  * Detailed description of what the function does.
  * Return: Description of the return value.
  */
@@ -16,6 +18,8 @@ return (palindrome(s, 0, length(s)));
 /**
  * length - Brief description of the function.
  * @s : string to check
+ * @i : checker
+ * @len : lrngth og the string
  * Detailed description of what the function does.
  * Return: Description of the return value.
  */
@@ -29,7 +33,7 @@ return (1 + length(s + 1));
  * palindrome - Brief description of the function.
  * @s : string to chek
  * @i : checker
- * @len : lrngth og the string 
+ * @len : lrngth og the string
  * Detailed description of what the function does.
  * Return: Description of the return value.
  */
