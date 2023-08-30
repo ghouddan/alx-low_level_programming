@@ -31,12 +31,13 @@ if (n <= 1)
 {
 return (0);
 }
-if(i * i > n)
+if (i * i > n)
 {
 return (n);
 }
-if (n % i == 0) {
-return i;
+if (n % i == 0)
+{
+return (i);
 }
 return (prime(n, i + 1));
 }
