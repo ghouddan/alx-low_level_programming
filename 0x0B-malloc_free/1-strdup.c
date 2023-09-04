@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * char _strdup - Brief description of the function.
+ * _strdup - Brief description of the function.
  * @str : string to duplicate
  * Detailed description of what the function does.
  * Return: Description of the return value.
@@ -24,7 +24,7 @@ if (dup == 0)
 {
 return (0);
 }
-for(i = 0; str[i] != '\0'; i++)
+for (i = 0; str[i] != '\0'; i++)
 {
 dup[i] = str[i];
 }
