@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * str_conct - Brief description of the function.
- * s2 : string 2
+ * str_concat - Brief description of the function.
+ * @s2 : string 2
  * @s1 : string 1
  * Detailed description of what the function does.
  * Return: Description of the return value.
@@ -13,10 +13,12 @@ int i;
 int j;
 int k;
 char *result;
-if (s1 == NULL) {
+if (s1 == NULL)
+{
 s1 = "";
 }
-if (s2 == NULL) {
+if (s2 == NULL)
+{
 s2 = "";
 }
 k = 0;
@@ -28,10 +30,10 @@ i++;
 }
 while (s2[j])
 {
-    j++;
+j++;
 }
 result = malloc((i + j + 1) * sizeof(char));
-if(result == 0)
+if (result == 0)
 {
 return (0);
 }
