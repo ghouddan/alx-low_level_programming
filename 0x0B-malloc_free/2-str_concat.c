@@ -29,14 +29,28 @@ if(result == 0)
 {
 return (0);
 }
+if (s1 == 0)
+{
+result = "";
+}
+else
+{
 for (i = 0; s1[i] != '\0'; i++)
 {
 result[i] = s1[i];
 }
+}
+if(s2 == 0)
+{
+result = "";
+}
+else
+{
 while (s2[k])
 {
 result[i + k] = s2[k];
 k++;
+}
 }
 result[i + k] = '\0';
 return (result);
