@@ -21,6 +21,7 @@ while (av[j])
 {
 lent += j++;
 }
+i++;
 j = 0;
 }
 if (ac == 0 || av == NULL)
@@ -38,6 +39,10 @@ for (j = 0; av[i][j]; j++)
 {
 argstor[k] = av[i][j];
 k++;
+}
+if (argstor[k] == '\0')
+{
+argstor[k++] = '\n';
 }
 }
 return (argstor);
