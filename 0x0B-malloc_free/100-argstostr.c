@@ -9,7 +9,7 @@
  */
 char *argstostr(int ac, char **av)
 {
-int j,i,lent,k;
+int j, i, lent, k;
 char *argstor;
 i = 0;
 j = 0;
@@ -28,7 +28,7 @@ if (ac == 0 || av == NULL)
 {
 return (NULL);
 }
-argstor = malloc(lent * sizeof(char *));
+argstor = malloc((lent + 1) * sizeof(char *));
 if (argstor == NULL)
 {
 return (NULL);
