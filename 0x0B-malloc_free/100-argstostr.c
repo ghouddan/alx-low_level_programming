@@ -15,19 +15,18 @@ i = 0;
 j = 0;
 lent = 0;
 k = 0;
-while (i <= ac)
-{
-while (av[j])
-{
-lent += j++;
-}
-i++;
-j = 0;
-}
 if (ac == 0 || av == NULL)
 {
 return (NULL);
 }
+for (i = 0; i < ac; i++)
+{
+for (j = 0; av[i][j]; j++)
+{
+lent++;
+}
+}
+lent += ac;
 argstor = malloc((lent + 1) * sizeof(char *));
 if (argstor == NULL)
 {
