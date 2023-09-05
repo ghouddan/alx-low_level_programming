@@ -27,7 +27,7 @@ lent++;
 }
 }
 lent += ac;
-argstor = malloc((lent + 1) * sizeof(char *));
+argstor = malloc((lent + 1) * sizeof(char));
 if (argstor == NULL)
 {
 return (NULL);
