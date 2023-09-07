@@ -27,10 +27,12 @@ while (s2[lent2] != '\0')
 lent2++;
 }
 }
-if (n < lent2) 
+if (n < lent2)
 {
 allocSize = lent1 + n + 1;
-} else {
+}
+else
+{
 allocSize = lent1 + lent2 + 1;
 }
 string = malloc(sizeof(char) * allocSize);
