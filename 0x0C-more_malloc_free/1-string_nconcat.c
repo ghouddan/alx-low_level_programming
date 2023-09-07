@@ -40,7 +40,7 @@ else
 allocSize = lent1 + lent2 + 1;
 }
 string = malloc(sizeof(char) * allocSize);
-if (!string)
+if (! string)
 {
 return (NULL);
 }
