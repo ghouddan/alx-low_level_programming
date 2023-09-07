@@ -3,7 +3,7 @@
 /**
  * string_nconcat - Brief description of the function.
  * @s1 : string 1
- * @s2 : string 2;
+ * @s2 : string 2
  * @n : number of bytes of the string 2
  * Detailed description of what the function does.
  * Return: Description of the return value.
@@ -22,7 +22,7 @@ while (s1[i])
 {
 i++;
 }
-while (s2[j])
+while (s2[j] || j <= n)
 {
 j++;
 }
@@ -37,8 +37,8 @@ string[i] = s1[i];
 }
 for (j = 0; j<= n; j++)
 {
-    string[i+j] = s2[j];
+string[i+j] = s2[j];
 }
- string[i+j] = '\0';
+string[i+j] = '\0';
 return (string);
 }
