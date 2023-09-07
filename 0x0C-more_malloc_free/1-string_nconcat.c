@@ -2,9 +2,9 @@
 #include <stdlib.h>
 /**
  * string_nconcat - Brief description of the function.
- * @s1 : string 1
- * @s2 : string 2
- * @n : number of bytes of the string 2
+ * @s1: string 1
+ * @s2: string 2
+ * @n: number of bytes of the string 2
  * Detailed description of what the function does.
  * Return: Description of the return value.
  */
@@ -51,8 +51,7 @@ string[i] = s1[i];
 for (j = 0; (s2 != NULL) && (s2[j] != '\0') && (j < n); j++)
 {
 string[i + j] = s2[j];
-} 
+}
 string[i + j] = '\0';
-
 return (string);
 }
