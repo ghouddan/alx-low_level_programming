@@ -18,7 +18,7 @@ int _strlen(char *string)
  * @dest : destination
  * return string
  */
-char * _strcp(char *src, char *dest)
+char * _strcp(char *dest, char *src)
 {
 	int i;
 	for (i = 0; src[i]; i++)
