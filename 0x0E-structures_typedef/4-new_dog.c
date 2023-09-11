@@ -8,7 +8,7 @@
 int _strlen(char *string)
 {
 	int i = 0;
-	while (string)
+	while (string[i])
 		i++;
 	return (i);
 }
@@ -35,24 +35,25 @@ char * _strcp(char *dest, char *src)
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *new_dog = malloc(sizeof(dog_t));
-	if(new_dog == NULL)
+	dog_t *new_dog;
+        new_dog = malloc(sizeof(dog_t));
+	if(!new_dog)
 	        return (NULL);
 	new_dog->name = malloc((_strlen(name) + 1) * sizeof(char));
-	if (new_dog->name == NULL)
+	if (!new_dog->name)
 	{
 		free(new_dog);
 		return (NULL);
 	}
-	new_dog->name = _strcp(new_dog->name, name);
+	 _strcp(new_dog->name, name);
 	new_dog->owner = malloc(sizeof(char) * (_strlen(owner) + 1));
-	if (new_dog->owner == NULL)
+	if (!new_dog->owner)
 	{
 		free(new_dog->name);
 		free(new_dog);
 		return (NULL);
 	}
-	new_dog->owner = _strcp(new_dog->owner, owner);
+	 _strcp(new_dog->owner, owner);
 
 	new_dog->age = age;
 
