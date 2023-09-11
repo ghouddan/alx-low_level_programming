@@ -8,7 +8,7 @@
 int _strlen(char *string)
 {
 	int i = 0;
-	while (string[i] != '\0')
+	while (string)
 		i++;
 	return (i);
 }
@@ -23,6 +23,7 @@ char * _strcp(char *src, char *dest)
 	int i;
 	for (i = 0; src[i]; i++)
 		dest[i] = src[i];
+	dest[i] = '\0';
 	return (dest);
 }
 /**
