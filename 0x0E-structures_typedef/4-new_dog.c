@@ -18,7 +18,7 @@ return (i);
  * _strcp - function to copy
  * @src : source
  * @dest : destination
- * return : string copy 
+ * return : string copy
  */
 char *_strcp(char *dest, char *src)
 {
