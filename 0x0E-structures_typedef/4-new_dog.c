@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * _strlen - function to calculate the size
- * @string : string to determin the lent of
- * return : int size of string
+ * @string : string to determin the lenght of
+ * Return : int size of string
  */
 int _strlen(char *string)
 {
@@ -18,7 +18,7 @@ return (i);
  * _strcp - function to copy
  * @src : source
  * @dest : destination
- * return : string copy
+ * Return : string copy
  */
 char *_strcp(char *dest, char *src)
 {
@@ -30,10 +30,10 @@ return (dest);
 }
 /**
  * new_dog - function to creat new dog
- * @name : gog's name
+ * @name : dog's name
  * @age : dog's age
  * @owner : dog's owner
- * return : struct dog_t
+ * Return : struct dog_t
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
