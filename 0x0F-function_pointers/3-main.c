@@ -3,7 +3,8 @@
 #include "3-calc.h"
 /**
  * main - check the code
- *
+ * @argc : number of argument
+ * @argv : vector of argument
  * Return: Always 0.
  */
 int main(int argc, char *argv[])
