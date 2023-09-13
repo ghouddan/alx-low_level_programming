@@ -3,7 +3,7 @@
 /**
  * print_name - Brief description of the function.
  * @name : string to print
- * @f : function pointer 
+ * @f : function pointer
  * Detailed description of what the function does.
  * Return: Description of the return value.
  */
