@@ -29,7 +29,8 @@ return (a - b);
  * @b : number 2
  * Detailed description of what the function does.
  * Return: Description of the return value.
- */int op_mul(int a, int b)
+ */
+int op_mul(int a, int b)
 {
 return (a * b);
 }
