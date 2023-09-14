@@ -6,7 +6,6 @@
  * print_all - Description of the function.
  * @format : type of the varaible
  * @...: Description of the variadic arguments.
- *
  * Return: Description of the return value (if applicable).
  */
 void print_all(const char * const format, ...)
@@ -54,4 +53,3 @@ i++;
 printf("\n");
 va_end(args);
 }
-
