@@ -6,23 +6,17 @@
  * print_all - Description of the function.
  * @format : type of the varaible
  * @...: Description of the variadic arguments.
+ *
  * Return: Description of the return value (if applicable).
  */
 void print_all(const char * const format, ...)
 {
 va_list args;
+int i = 0;
+char *separator = "";
 char *str;
-char *separator;
-int i, size, j;
-separator = "";
-i = 0, size = 0, j = 0;
 va_start(args, format);
-while (format && format[j] != '\0')
-{
-j++;
-size++;
-}
-while (format[i])
+while (format && format[i])
 {
 switch (format[i])
 {
@@ -36,16 +30,11 @@ case 'f':
 	printf("%s%f", separator, va_arg(args, double));
 	break;
 case 's':
-str = va_arg(args, char*);
-if (str == NULL)
-{
-str = "(nil)";
-}
-printf("%s%s", separator, str);
-break;
-default:
-	i++;
-	continue;
+	str = va_arg(args, char *);
+	if (!str)
+		str = "(nil)";
+	printf("%s%s", separator, str);
+	break;
 }
 separator = ", ";
 i++;
