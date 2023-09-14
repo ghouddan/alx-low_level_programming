@@ -44,6 +44,8 @@ str = "(nil)";
 }
 printf("%s%s", separator, str);
 break;
+default:
+	break;
 }
 separator = ", ";
 i++;
