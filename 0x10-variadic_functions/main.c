@@ -1,5 +1,5 @@
 #include "variadic_functions.h"
-#include <stdlib.h>
+
 /**
  * main - check the code
  *
@@ -7,12 +7,6 @@
  */
 int main(void)
 {
-    /*print_all("csi", 'H', 42, "Hello");
-    print_all("c", 'X');*/
-    print_all("is", 10, "World");
-    print_all("f", 3.14);
-    print_all("s", "OpenAI");
-    print_all("");
+    print_all("ceis", 'B', 3, "stSchool");
     return (0);
 }
-

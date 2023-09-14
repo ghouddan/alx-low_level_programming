@@ -45,13 +45,13 @@ str = "(nil)";
 printf("%s%s", separator, str);
 break;
 default:
-	break;
+	i++;
+	continue;
 }
 separator = ", ";
 i++;
 }
 printf("\n");
-
 va_end(args);
 }
 
