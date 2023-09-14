@@ -35,6 +35,9 @@ case 's':
 		str = "(nil)";
 	printf("%s%s", separator, str);
 	break;
+defaulte:
+	i++;
+	continue;
 }
 separator = ", ";
 i++;
