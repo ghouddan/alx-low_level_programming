@@ -23,7 +23,7 @@ while (format && format[j] != '\0')
 j++;
 size++;
 }
-while (i < size)
+while (format[i])
 {
 switch (format[i])
 {
