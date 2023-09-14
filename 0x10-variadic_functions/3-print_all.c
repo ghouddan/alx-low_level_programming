@@ -18,7 +18,7 @@ int i, size, j;
 separator = "";
 i = 0, size = 0, j = 0;
 va_start(args, format);
-while (format[j] != '\0')
+while (format && format[j] != '\0')
 {
 j++;
 size++;
