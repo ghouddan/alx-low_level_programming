@@ -25,9 +25,9 @@ void flage(va_list args, const char forma, int *lent)
 	if (forma == 'X' || forma == 'x')
 		_putXx(va_arg(args, unsigned int), forma, lent);
 	if (forma == 'u')
-		_putnbr(va_arg(args, int), lent);
-	if (forma == 'o')
-		_putb8(va_arg(args, unsigned int ), lent);
+		_putnbr_u(va_arg(args, int), lent);
+	/*if (forma == 'o')
+		_putb8(va_arg(args, unsigned int ), lent);*/
 }
 
 /**
