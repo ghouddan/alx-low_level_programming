@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdio.h>
 /**
- * print_list - Description of the function.
+ * print_listint - Description of the function.
  * @h : separetor between numbers
  *
  * Return: Description of the return value (if applicable).

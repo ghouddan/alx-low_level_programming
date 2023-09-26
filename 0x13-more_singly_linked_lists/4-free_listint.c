@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * free_list- Description of the function.
+ * free_listint- Description of the function.
  * @head: head of the list
  *
  * Return: Description of the return value (if applicable).

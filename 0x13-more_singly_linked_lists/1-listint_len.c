@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * list_len - Description of the function.
+ * listint_len - Description of the function.
  * @h : separetor between numbers
  *
  * Return: Description of the return value (if applicable).
