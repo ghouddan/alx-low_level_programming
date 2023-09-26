@@ -2,7 +2,7 @@
 /**
  * insert_node_at_index- Description of the function.
  * @head: head of the list
- * @ind : where to add the new node
+ * @idx : where to add the new node
  * @n : data
  * Return: Description of the return value (if applicable).
  */
