@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * set_bit - Description of the function.
+ * flip_bits - Description of the function.
  * @n : numbe to be flip
  * @m : number to flip to
  * Return: Description of the return value (if applicable).
