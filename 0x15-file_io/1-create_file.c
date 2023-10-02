@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * creat_file - Description of the function.
+ * create_file - Description of the function.
  * @filename : name of file
  * @text_content : content of file
  * Return: Description of the return value (if applicable).
