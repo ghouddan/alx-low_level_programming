@@ -1,0 +1,3 @@
+gcc -c -fPIC *.c
+gcc -shared liball.so *.o
+rm *.o
