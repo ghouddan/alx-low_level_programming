@@ -2,7 +2,7 @@
 
 /**
 * hash_djb2 - hash function (djb2 algorithm)
- * @str: string to hash
+ * @String: string to hash
  * Return: hash value
  */
 unsigned long int hash_djb2(const unsigned char *String)
