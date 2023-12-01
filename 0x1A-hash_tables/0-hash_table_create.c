@@ -2,7 +2,7 @@
 
 /**
  * hash_table_create - Creates a hash table.
- * @size: the size, in number of nodes, to make the new hash table.
+ * @size: the size, in number of nodes
  *
  * Return: pointer to created hash table.
  */
@@ -22,6 +22,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 	if (hash_table->array == NULL)
 	{
 		fprintf(stderr, "Error: malloc failed\n");
+		free(hash_table);
 		return (NULL);
 	}
 
